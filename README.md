@@ -33,6 +33,7 @@ name:'edit'
 ,cmd:{
  short:(e)=>{}
  ,tab:(e)=>{}
+ ,del:(e)=>{}
 }
 }
 ```
