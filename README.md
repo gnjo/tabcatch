@@ -39,3 +39,11 @@ name:'edit'
 |                                    |
 --------------------------------------
 ```
+```
+tab(query)
+ .add('id','edit','short,tab,del',caller); //caller(type,id,name,tab); //type add,del,click //name edit,short,tab,del 
+ .del('id')
+ ;
+ .get('id','name') //return element
+```
+
