@@ -18,3 +18,21 @@ tab emulater. gather the div
   .add(element)
   .del(tabname)
 ```
+
+
+```js
+{
+name:'edit'
+,id:'xyz'
+,group:'g1'
+,on:{
+ init:(e)=>{}
+ ,open:(e)=>{}
+ ,close:(e)=>{}
+}
+,cmd:{
+ short:(e)=>{}
+ ,tab:(e)=>{}
+}
+}
+```
