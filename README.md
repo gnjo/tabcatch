@@ -20,30 +20,22 @@ tab emulater. gather the div
 ```
 
 
-```js
-{
-name:'edit'
-,id:'xyz'
-,group:'g1'
-,tabbar:(e)=>{}
-,body:(e)=>{}
-,toolbar:(e)=>{}
-}
 ```
-```
---------------------------------------
-| edit |            [short][tab][del]
---------------------------------------
-|                                    |
-|                                    |
-|                                    |
---------------------------------------
+----------------------------------------
+| (title)edit | (tool)[short][tab][del]
+----------------------------------------
+|                                      |
+|  (body)                              |
+|                                      |
+----------------------------------------
 ```
 ```
 tab(query)
- .add('id','edit','short,tab,del',caller); //caller(type,id,name,tab); //type add,del,click //name edit,short,tab,del 
+ .add('id','edit','short,tab,del',caller); //caller(type,id,name,obj); //type add,del,click,hide //name edit,short,tab,del 
  .del('id')
  ;
+ .gettab() //
+ .getkind('id','name') //return 'title','body','tool'
  .get('id','name') //return element
 ```
 
