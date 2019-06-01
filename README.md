@@ -25,16 +25,9 @@ tab emulater. gather the div
 name:'edit'
 ,id:'xyz'
 ,group:'g1'
-,on:{
- init:(e)=>{}
- ,open:(e)=>{}
- ,close:(e)=>{}
-}
-,cmd:{
- short:(e)=>{}
- ,tab:(e)=>{}
- ,del:(e)=>{}
-}
+,tabbar:(e)=>{}
+,body:(e)=>{}
+,toolbar:(e)=>{}
 }
 ```
 ```
