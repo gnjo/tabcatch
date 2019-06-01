@@ -32,7 +32,7 @@ tab emulater. gather the div
 ```
 tab(query)
  .add('id','edit','short,tab,del',caller); //caller(type,id,name,obj); //type add,del,click,hide //name edit,short,tab,del 
- .del('id')
+ .del('id',checkcaller)
  ;
  .gettab() //
  .getkind('id','name') //return 'title','body','tool'
